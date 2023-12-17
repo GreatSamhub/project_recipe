@@ -22,7 +22,7 @@ class DevConfig(Config):
 
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URI", "sqlite:///prod.db")
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URI")
     #postgres://recipe_app_project_user:uQRy7SNONJlXXnNecsX2xPYfjJzckcao@dpg-clvnmpug1b2c73cig1mg-a.oregon-postgres.render.com/recipe_app_project
     DEBUG = os.getenv("DEBUG", False)
     SQLALCHEMY_ECHO = os.getenv("ECHO", False)
