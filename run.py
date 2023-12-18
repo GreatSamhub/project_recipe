@@ -2,7 +2,7 @@ from flask import Flask
 from flask_jwt_extended import JWTManager
 from main import create_app
 from config import DevConfig, ProdConfig
-
+import os
 app = create_app(ProdConfig)
 
 # Set the JWT secret key
