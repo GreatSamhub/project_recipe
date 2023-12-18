@@ -13,6 +13,9 @@ flask-migrate = "*"
 colorama = "*"
 flask-cors = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
+alembic = "*"
+honcho = "*"
 
 [dev-packages]
 
