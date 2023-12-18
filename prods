@@ -1,0 +1,4 @@
+CREATE TABLE alembic_version (
+    version_num character varying(32) NOT NULL
+);
+INSERT INTO alembic_version (version_num) VALUES ('7b212d9ba4a1');
