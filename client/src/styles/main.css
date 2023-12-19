@@ -1,13 +1,26 @@
-.container{
+.container {
     margin-top: 50px;
 }
-.heading{
+
+.heading {
     font-size: 3em;
 }
-.form{
-    margin:auto;
+
+.form {
+    margin: auto;
     width: 80%;
 }
-.recipe{
-    margin-top:20px;
+
+.recipe {
+    margin-top: 20px;
+}
+
+/* Replace color-adjust with print-color-adjust */
+.some-selector {
+    color-adjust: exact;
+}
+
+/* Updated with the fix */
+.some-selector {
+    print-color-adjust: exact;
 }
