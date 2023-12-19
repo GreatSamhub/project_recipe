@@ -17,7 +17,7 @@
 
 /* Replace color-adjust with print-color-adjust */
 .some-selector {
-    color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 /* Updated with the fix */
